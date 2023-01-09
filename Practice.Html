@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> </script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function(){
+            $(".div2").click(function(){
+                $(".div2").slideToggle(1000);
+            })
+        });
+    </script>
+    <style>
+        body{
+            background-color: purple;
+        }
+
+        .div2{
+            position: absolute;
+            background-color: black;
+            color: aliceblue;
+            z-index: 1;
+        }
+        .div1{
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background-color: aquamarine;
+        }
+
+        #marq{
+            background-color: aqua;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur assumenda cum? Labore, tempore. Minima placeat suscipit nam in iure consequuntur. Fugiat modi repudiandae dolorum eius doloremque voluptatem minus, sequi, voluptatibus laborum dicta accusantium cupiditate commodi nam blanditiis sapiente quia quo. Minus dolor commodi asperiores totam consectetur amet veniam repellat.
+    </div>
+    <div class="div1">
+        Inner Div
+    </div>
+    
+    <div id="marq">
+        <marquee behavior="" direction="left">Hii</marquee>
+    </div>
+    
+</body>
+</html>
