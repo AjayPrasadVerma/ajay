@@ -6,10 +6,10 @@ body{
 
 ::selection{
     background-color: #E4F9F5;
+    color: #048e75;
 }
 
 h1{
-    /* width: 150px; */
     padding-top: 12%;
     padding-bottom: 30px;
     margin: 0px auto 0 auto;
@@ -45,7 +45,7 @@ h3{
 }
 
 #right{
-    top: 160px;
+    top: 100px;
     right: 200px;
     float: right;
 }
@@ -91,6 +91,10 @@ a{
     text-decoration: none;
     color: #048e75;
     font-family: sans-serif;
+}
+
+li{
+    margin: 0 5px 0 5px;
 }
 
 li::first-letter{
