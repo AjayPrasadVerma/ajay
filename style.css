@@ -119,6 +119,12 @@ li a:hover{
     }
 }
 
+@media (max-width: 900px){
+    #right{
+        display: none;
+    }
+}
+
 #first-para{
     line-height: 30px;
     color: rgba(0, 0, 0, 0.5);
