@@ -17,12 +17,14 @@ h1{
     color: #048e75;
     font-size: 80px;
     font-weight: lighter;
+    user-select: none;
 }
 #head-para{
     position: relative;
     margin-top: -10px;
     color: #048e75;
     z-index: 30;
+    user-select: none;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -59,12 +61,14 @@ h3{
     margin-top: 20px;
     max-inline-size: 100%;
     object-fit: contain;
+    user-select: none;
 }
 
 #menu-bar{
     position: relative;
     background-color: #E4F9F5;
     z-index: 3;
+    user-select: none;
 }
 #img-container img{
     width: 80px;
@@ -139,6 +143,7 @@ li a:hover{
     vertical-align: middle;
     width: 150px;
     margin-left: -3%;
+    user-select: none;
 }
 
 .div2{
@@ -175,6 +180,7 @@ li a:hover{
 #emo2{
     vertical-align: middle;
     width: 150px;
+    user-select: none;
 }
 
 #sub-para{
@@ -196,6 +202,7 @@ li a:hover{
 
 .btn{
     margin-top: 50px;
+    user-select: none;
 }
 #msg-btn{
     border: 1px solid #086d5b; 
