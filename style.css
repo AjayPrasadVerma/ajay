@@ -1,0 +1,366 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+}
+
+::selection {
+    background-color: #E4F9F5;
+    color: #048e75;
+}
+
+h1 {
+    padding-top: 12%;
+    padding-bottom: 30px;
+    margin: 0px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #048e75;
+    font-size: 80px;
+    font-weight: lighter;
+    user-select: none;
+}
+
+#head-para {
+    position: relative;
+    margin-top: -10px;
+    color: #048e75;
+    z-index: 30;
+    user-select: none;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #048e75;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #048e75;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+}
+
+.middle-container {
+    margin-top: 8%;
+
+}
+
+#right {
+    top: 100px;
+    right: 200px;
+    float: right;
+}
+
+#left {
+    top: -40px;
+    left: 240px;
+}
+
+#mountain {
+    margin-top: 20px;
+    max-inline-size: 100%;
+    object-fit: contain;
+    user-select: none;
+}
+
+#menu-bar {
+    position: relative;
+    background-color: #E4F9F5;
+    z-index: 3;
+    user-select: none;
+}
+
+#img-container img {
+    width: 80px;
+    float: left;
+    padding: 25px 20% 20px 15%;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    height: 80px;
+    padding: 25px 10% 20px 0px;
+}
+
+ul {
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    width: 45%;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #048e75;
+    font-family: sans-serif;
+}
+
+li {
+    margin: 0 5px 0 5px;
+}
+
+li::first-letter {
+    font-size: 20px;
+}
+
+.active {
+    color: #036150;
+}
+
+li a:hover {
+    color: #036150;
+}
+
+#first-para {
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#heading2 {
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+#emo1 {
+    vertical-align: middle;
+    width: 150px;
+    margin-left: -3%;
+    user-select: none;
+}
+
+.div2 {
+    margin-top: 50px;
+}
+
+#head3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 39%;
+}
+
+#third-para {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 30px;
+    padding-left: 10%;
+}
+
+.div3 {
+    margin-top: 50px;
+}
+
+#head4 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 39%;
+}
+
+#fourth-para {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 30px;
+    padding-right: 10%;
+}
+
+#emo2 {
+    vertical-align: middle;
+    width: 150px;
+    user-select: none;
+}
+
+#sub-para {
+    color: #1ed4b3;
+    font-size: 25px;
+}
+
+#help {
+    font-family: 'Montserrat', sans-serif;
+    color: #048e75;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#fifth-para {
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+
+.btn {
+    margin-top: 50px;
+    user-select: none;
+}
+
+#msg-btn {
+    border: 1px solid #086d5b;
+    background-color: #039c80;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #036150;
+}
+
+#msg-btn:hover {
+    background-color: #04876f;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 150px;
+    background-color: #E4F9F5;
+    padding-bottom: 5px;
+}
+
+#footer-para {
+    padding-top: 25px;
+    color: #048e75;
+}
+
+#copy {
+    font-size: 13px;
+    color: #048e75;
+}
+
+span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #048e75;
+}
+
+/*  social icon start */
+.icons {
+    list-style-type: none;
+}
+
+.icon {
+    text-decoration: none;
+    position: relative;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon.circle {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 1.5em;
+    height: 2.25em;
+    left: 0;
+    line-height: 2.25em;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 2.25em;
+}
+
+.icon.circle:hover {
+    top: -0.2em;
+}
+
+.icon.circle.fa-twitter {
+    background: #55ACEE;
+    color: #fff;
+}
+
+.icon.circle.fa-twitter:hover {
+    background: #6baaca;
+}
+
+.icon.circle.fa-facebook {
+    background: #3B5998;
+    color: #fff;
+}
+
+.icon.circle.fa-facebook:hover {
+    background: #6e8bc1;
+}
+
+.icon.circle.fa-instagram {
+
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: #fff;
+}
+
+.icon.circle.fa-instagram:hover {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #f3cf92, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #f3cf92, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #777df4, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #777df4, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #c179f7, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #c179f7, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#777df4, #f460c5 30%, #f66884 50%, #f89568 70%, #f3cf92 100%);
+    color: #fff;
+}
+
+.icon.circle.fa-linkedin {
+    background: #007bb5;
+    color: #fff;
+}
+
+.icon.circle.fa-linkedin:hover {
+    background: #5391ae;
+}
+
+.icon.circle.fa-github {
+    background: #dcad8b;
+    color: #fff;
+}
+
+.icon.circle.fa-github:hover {
+    background: #e1b89b;
+}
+
+.icon.circle.upwork:hover {
+    filter: brightness(90%);
+}
+
+.icon.featured {
+    cursor: default;
+    display: block;
+    margin: 0 0 1.5em 0;
+    opacity: 0.35;
+    text-align: center;
+}
+
+.icon.featured:before {
+    font-size: 5em;
+    line-height: 1em;
+}
+
+/* .icon.circle {
+        font-size: 1.5em;
+    } */
+
+.icon>.label {
+    display: none;
+}
+
+/*  social icon end */
+@media (max-width: 1280px) {
+    #left {
+        left: 10px;
+    }
+
+    #right {
+        top: 25px;
+        left: -120px;
+    }
+}
+
+@media (max-width: 900px) {
+    #right {
+        display: none;
+    }
+}

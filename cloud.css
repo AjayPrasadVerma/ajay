@@ -1,0 +1,70 @@
+.cloud {
+	width: 250px; 
+    height: 40px;
+	
+	background: #f2f9fe;
+	
+	border-radius: 200px 200px 0px 0px;	
+	position: relative;
+	z-index: 10;
+}
+
+.cloud:after, .cloud:before {
+	content: '';
+	position: absolute;
+	background: #f2f9fe;
+}
+
+.cloud:after {
+	width: 100px; height: 50px;
+	top: -20px; left: 30px;
+	
+	border-radius: 100px 100px 0 0;
+	-webkit-border-radius: 100px 100px 0 0;
+	-moz-border-radius: 100px 100px 0 0;
+}
+
+.cloud:before {
+	width: 130px; height: 65px;
+	top: -35px; right: 45px;
+	border-radius: 300px;
+	-webkit-border-radius: 300px 300px 0 0;
+	-moz-border-radius: 300px 300px 0 0;
+}
+
+.conta{
+    display:flex;
+    justify-content: center;
+    height: 20px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f9fe;
+}
+
+.cld{
+  width: 5px;
+  height: 10px;
+  margin: 5px;
+  z-index: 11;
+}
+.ccircle{
+    border-radius: 30px 5px 0 0;
+    border: 2px solid rgba(128, 128, 128, 0.2);
+    border-bottom: none;
+    border-right: none;
+    width: 10px;
+    transform:rotate(45deg);
+    padding: 3px;
+    align-self:flex-end;
+    background-color: #f2f9fe;
+}
+
+.sphere{
+    border-radius: 0px 0px 200px 200px;
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 20px;
+    align-self:flex-start;
+}
+
+
