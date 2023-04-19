@@ -1,13 +1,13 @@
 
-window.addEventListener("wheel", function (event) {
-    if (event.deltaY < 0) {
-        $("#menu-bar").slideDown(1000);
-    }
-    else if (event.deltaY > 0) {
+// window.addEventListener("wheel", function (event) {
+//     if (event.deltaY < 0) {
+//         $("#menu-bar").slideDown(1000);
+//     }
+//     else if (event.deltaY > 0) {
 
-        $("#menu-bar").slideUp(1000);
-    }
-});
+//         $("#menu-bar").slideUp(1000);
+//     }
+// });
 
 if (window.innerWidth < 1208 && window.innerWidth > 790) {
     $("#right").animate({ left: '10px' }, 500);
